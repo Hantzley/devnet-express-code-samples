@@ -1,13 +1,8 @@
 food={"vegetables":["carrots","kale","cucumber","tomato"]}
 print(food["vegetables"][1])
-for veg in food["vegetables"]:
-	print(veg)
 
 cars={"sports":{"Porsche":"Volkswagon","Viper":"Dodge","Corvette":"Chevy"}}
 print(cars["sports"]["Corvette"])
-for auto in cars["sports"]:
-	print(auto,cars["sports"][auto])
-	
 
 dessert={"iceCream":["Rocky-Road","strawberry","Pistachio-Cashew","Pecan-Praline"]}
 
